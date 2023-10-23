@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" media="screen and (max-width: 768px)" href="/CSS/pratos.css">
+
+        </head>
+
+                    <body>
+                            
+                            
+                        <div class="container">
+                            <div class="card">
+                                <p class="TITUL">Pratos Feitos </p>
+                            </div>
+                            
+                            
+                            <div class="card">
+                                <img src="/IMG/completogado.jpeg" alt="Prato 1">
+                                <p class="description">Arroz - Feijão - Bife de Gado - Batata Frita - Purê - Salada</p>
+                                <p class="price">R$25,00</p>
+                            </div>
+                            <div class="card">
+                                <img src="/IMG/simplesgado.jpeg" alt="Prato 2">
+                                <p class="description">Arroz - Feijão - Bife de Gado - Salada</p>
+                                <p class="price">R$18,00</p>
+                            </div>
+                            <div class="card">
+                                <img src="/IMG/completofrango.jpeg" alt="Prato 3">
+                                <p class="description">Prato feito completo - Frango - Arroz - Feijão - Filé de Frango - Batata-Frita - Purê - Salada</p>
+                                <p class="price">R$26,00</p>
+                            </div>
+                            <div class="card">
+                                <img src="/IMG/simplesfrango.jpeg" alt="Prato 4">
+                                <p class="description">Arroz - Feijão - Bife de Frango - Salada</p>
+                                <p class="price">R$26,00</p>
+                            </div>
+                                <div class="card">
+                                    <img src="/IMG/completopeixe.jpeg" alt="Prato 4">
+                                    <p class="description">Prato feito completo - Frango - Arroz - Feijão - Filé de Peixe - Batata-Frita - Purê - Salada</p>
+                                    <p class="price">R$25,00</p>
+                                </div>
+                                    <div class="card">
+                                        <img src="/IMG/simplespeixe.jpeg" alt="Prato 4">
+                                        <p class="description">Arroz - Feijão - Filé de Peixe - Salada</p>
+                                        <p class="price">R$16,00</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <script>
+                            function scrollToBottom() {
+                                window.scrollBy(0, 1); // Aumente o valor para tornar a rolagem mais lenta
+                                if (window.innerHeight + window.scrollY < document.body.offsetHeight) {
+                                    requestAnimationFrame(scrollToBottom);
+                                }
+                            }
+                    
+                            // Chame a função quando a página for carregada
+                            window.onload = function () {
+                                scrollToBottom();
+                            }
+                        </script>
+                        <div class="container">
+                            <!-- Seu conteúdo -->
+                        </div>
+                    
+                    
+                    </body>
+
+
+</html>
